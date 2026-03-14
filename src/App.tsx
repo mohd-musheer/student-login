@@ -41,7 +41,7 @@ const App = () => (
       <AuthProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/student-login">
           <Suspense fallback={<LoadingSpinner />}>
             <Routes>
               {/* Public Routes */}
